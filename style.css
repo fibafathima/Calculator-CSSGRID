@@ -1,0 +1,86 @@
+body{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+body>div{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    margin-top: 10%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 43px 11px #8c8787;
+}
+.parent {
+   
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+
+    
+
+    }
+.parent>div{
+    /* border:2px solid red; */
+    display: flex;
+    width: 60px;
+    height: 60px;
+    justify-content:center ;
+    align-items: center;
+    margin-left: 20%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 22px 0px #d0cece;
+    
+}
+.white{
+    background-color: white;
+    border: 3px solid white;
+
+}
+.red{
+    background-color: red;
+    border: 3px solid red;
+
+}
+.black{
+    background-color: black;
+    border: 3px solid black;
+    color: white;
+    
+}
+
+#output{
+    /* border: 2px solid red; */
+    background-color: white;
+    width: 300px;
+    height: 90px;
+    margin-left: 12%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 22px 0px #8c8787;
+}
+.black:hover{
+    background-color: grey;
+    color: white;
+    border: gray;
+}
+.red:hover{
+    background-color: grey;
+    color: white;
+    border: gray;
+}
+.white:hover{
+    background-color: grey;
+    color: white;
+    border: gray;
+    
+
+}
